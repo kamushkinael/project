@@ -1,0 +1,149 @@
+{
+  "identity": {
+    "name": "VacationFlow",
+    "persona": "E1: The Anti-AI Designer",
+    "archetype": "Swiss & High-Contrast (Corporate Strict)",
+    "tone": "Authoritative, Clear, Functional, yet Human",
+    "language": "Russian (ru-RU)"
+  },
+  "typography": {
+    "fonts": {
+      "heading": "Manrope, sans-serif",
+      "body": "Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "usage": {
+      "h1": "font-heading font-bold text-4xl tracking-tight",
+      "h2": "font-heading font-semibold text-2xl tracking-tight",
+      "h3": "font-heading font-medium text-xl",
+      "body": "font-body text-base leading-relaxed",
+      "caption": "font-body text-sm text-muted-foreground",
+      "data": "font-mono text-sm tracking-wide"
+    }
+  },
+  "colors": {
+    "light": {
+      "background": "#F5F7FA",
+      "foreground": "#0F172A",
+      "card": "#FFFFFF",
+      "card_foreground": "#0F172A",
+      "primary": "#0F172A",
+      "primary_foreground": "#F8FAFC",
+      "secondary": "#E2E8F0",
+      "secondary_foreground": "#1E293B",
+      "muted": "#F1F5F9",
+      "muted_foreground": "#64748B",
+      "accent": "#F1F5F9",
+      "accent_foreground": "#0F172A",
+      "destructive": "#EF4444",
+      "destructive_foreground": "#F8FAFC",
+      "border": "#E2E8F0",
+      "input": "#E2E8F0",
+      "ring": "#0F172A",
+      "vacation_approved": "#10B981",
+      "vacation_pending": "#F59E0B",
+      "vacation_rejected": "#EF4444"
+    },
+    "dark": {
+      "background": "#09090B",
+      "foreground": "#F8FAFC",
+      "card": "#18181B",
+      "card_foreground": "#F8FAFC",
+      "primary": "#F8FAFC",
+      "primary_foreground": "#09090B",
+      "secondary": "#27272A",
+      "secondary_foreground": "#F8FAFC",
+      "muted": "#27272A",
+      "muted_foreground": "#A1A1AA",
+      "accent": "#27272A",
+      "accent_foreground": "#F8FAFC",
+      "destructive": "#7F1D1D",
+      "destructive_foreground": "#F8FAFC",
+      "border": "#27272A",
+      "input": "#27272A",
+      "ring": "#D4D4D8",
+      "vacation_approved": "#059669",
+      "vacation_pending": "#D97706",
+      "vacation_rejected": "#DC2626"
+    }
+  },
+  "layout_strategy": {
+    "dashboard_grid": "Bento Grid (Mode B: Control Room)",
+    "spacing": "Generous (p-6, p-8, gap-6)",
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "border_radius": "rounded-none md:rounded-sm"
+  },
+  "components": {
+    "buttons": {
+      "style": "Sharp edges or minimal radius (rounded-sm)",
+      "hover": "transform -translate-y-0.5 transition-all duration-200"
+    },
+    "cards": {
+      "style": "Flat, 1px border, no shadow (or very subtle shadow-sm)",
+      "hover": "border-primary/50 transition-colors"
+    },
+    "fullcalendar": {
+      "style": "Custom CSS Variables",
+      "overrides": {
+        "--fc-border-color": "var(--border)",
+        "--fc-page-bg-color": "var(--background)",
+        "--fc-neutral-bg-color": "var(--muted)",
+        "--fc-list-event-hover-bg-color": "var(--accent)",
+        "--fc-today-bg-color": "transparent",
+        "--fc-event-border-color": "transparent"
+      }
+    },
+    "shadcn_customization": {
+      "radius": "0.25rem",
+      "shadows": "none"
+    }
+  },
+  "visual_enhancers": {
+    "textures": "Subtle noise overlay on dashboard background (opacity 0.02)",
+    "gradients": "NO gradients for backgrounds. Solid colors only.",
+    "motion": "Micro-interactions on hover. Smooth transitions for modal open/close."
+  },
+  "image_urls": {
+    "login_background": {
+      "url": "https://images.unsplash.com/photo-1649182784901-48f5f2d40ecc?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Abstract minimalist waves, black and white, structured but organic",
+      "category": "background"
+    },
+    "user_avatar_employee": {
+      "url": "https://images.unsplash.com/photo-1575299833801-85ce40813bac?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Man smiling holding camera, implies vacation/hobby",
+      "category": "avatar"
+    },
+    "user_avatar_manager": {
+      "url": "https://images.unsplash.com/photo-1589220286904-3dcef62c68ee?crop=entropy&cs=srgb&fm=jpg&q=85",
+      "description": "Professional woman, authoritative yet approachable",
+      "category": "avatar"
+    },
+    "user_avatar_hr": {
+      "url": "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg",
+      "description": "Professional HR manager",
+      "category": "avatar"
+    }
+  },
+  "instructions_to_main_agent": {
+    "general": "Build a 'Corporate Strict' but 'Designed' application. Think Swiss Style: Grid, Typography, Whitespace. No decorative fluff.",
+    "language": "All UI text MUST be in Russian. Use 'Главная', 'Календарь', 'Заявки', 'Баланс', 'Выйти'.",
+    "theme_toggle": "Implement a theme toggle in the top navigation. Default to System preference.",
+    "fullcalendar": "Use FullCalendar React component. Style it to match the theme using the CSS variables defined above. Remove default heavy borders.",
+    "login_page": "Split screen layout. Left: Branding/Typography (Sticky). Right: Login Form (Scrollable if needed). Use the 'login_background' image for the Left side with a dark overlay.",
+    "dashboard": "Use the 'Bento Grid' layout. Top row: Key Metrics (Balance, Pending Requests). Middle: Calendar/Timeline. Bottom: Recent Activity.",
+    "vacation_request": "Use a Shadcn Dialog for the 'New Request' form. Use a Date Range Picker.",
+    "anti_ai_rules": [
+      "DO NOT use purple or teal for primary actions. Use Slate-900 (Dark) or Slate-50 (Light).",
+      "DO NOT center everything. Use strong left alignment for text.",
+      "DO NOT use generic 'Inter' for headings. Use 'Manrope'.",
+      "DO NOT use rounded-xl or rounded-2xl. Use rounded-sm or rounded-none for a strict corporate look."
+    ]
+  },
+  "universal_guidelines": {
+    "testing": "All interactive elements MUST have data-testid attributes (e.g., data-testid='submit-request-btn').",
+    "accessibility": "Ensure contrast ratios meet WCAG AA. Use focus-visible rings.",
+    "motion": "Use 'sonner' for toasts. Animate route transitions subtly (opacity only)."
+  }
+}
+

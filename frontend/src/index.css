@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222 39% 11%;
+
+    --card: 0 0% 98%;
+    --card-foreground: 222 39% 11%;
+
+    --primary: 217 91% 60%;            
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 96%;
+    --secondary-foreground: 222 39% 11%;
+
+    --muted: 0 0% 94%;
+    --muted-foreground: 220 9% 46%;
+
+    --accent: 0 0% 92%;
+    --accent-foreground: 222 39% 11%;
+
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 86%;
+    --input: 0 0% 94%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 9 9 11;
+    --foreground: 248 250 252;
+
+    --card: 24 24 27;
+    --card-foreground: 248 250 252;
+
+    --primary: 248 250 252;
+    --primary-foreground: 9 9 11;
+
+    --secondary: 39 39 42;
+    --secondary-foreground: 248 250 252;
+
+    --muted: 39 39 42;
+    --muted-foreground: 161 161 170;
+
+    --accent: 59 130 246;
+    --accent-foreground: 255 255 255;
+
+    --destructive: 127 29 29;
+    --destructive-foreground: 248 250 252;
+
+    --border: 39 39 42;
+    --input: 39 39 42;
+
+    --ring: 212 212 216;
+
+    --vacation-approved: 5 150 105;
+    --vacation-pending: 217 119 6;
+    --vacation-rejected: 220 38 38;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+  }
+}
+
+.font-heading {
+  font-family: 'Manrope', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.fc {
+  --fc-border-color: hsl(var(--border));
+  --fc-page-bg-color: hsl(var(--background));
+  --fc-neutral-bg-color: hsl(var(--muted));
+  --fc-list-event-hover-bg-color: hsl(var(--accent));
+  --fc-today-bg-color: transparent;
+  --fc-event-border-color: transparent;
+}
+
+.fc .fc-button-primary {
+  background-color: hsl(var(--primary));
+  border-color: hsl(var(--primary));
+  color: hsl(var(--primary-foreground));
+}
+
+.fc .fc-button-primary:hover {
+  background-color: hsl(var(--primary) / 0.9);
+  border-color: hsl(var(--primary) / 0.9);
+}
+
+.fc .fc-button-primary:disabled {
+  background-color: hsl(var(--muted));
+  border-color: hsl(var(--muted));
+}
+
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: hsl(var(--border));
+}
+
+.fc-theme-standard .fc-scrollgrid {
+  border-color: hsl(var(--border));
+}
+
+.fc .fc-daygrid-day-number {
+  color: hsl(var(--foreground));
+}
+
+.fc .fc-col-header-cell-cushion {
+  color: hsl(var(--muted-foreground));
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+}
+
+.fc .fc-event {
+  border-radius: 2px;
+  padding: 2px 4px;
+  font-size: 0.875rem;
+}
+
+.fc .fc-daygrid-event {
+  border-radius: 2px;
+}
+
+.fc .fc-h-event {
+  border: none;
+}
