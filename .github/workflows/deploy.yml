@@ -23,7 +23,7 @@ jobs:
           key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             echo "=== Deploy started ==="
-            cd /case4/app
+            cd /VacationFlow/project
             git pull origin main
             docker-compose down -v
             docker-compose up -d --build
