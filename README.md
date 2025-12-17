@@ -49,13 +49,19 @@
 - Статусы заявок выделены цветными метками (Bootstrap badges).
 - Все интерфейсы адаптированы под мобильные устройства благодаря **Bootstrap 5**.
 
-### 5. **Лёгкое развёртывание и поддержка**
+### 5. Технологии
+- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
+- **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js;
+- **Контейниризация:** Docker, Docker Compose, .env;
+- **База данных:** NoSQL;
+- **Версионирование и координация:** Git, GitHub, README, workflow;
+
+### 6. **Лёгкое развёртывание и поддержка**
 
 - Проект упакован в **Docker-контейнеры**, развёртывание занимает одну команду:  
   ```bash
   docker-compose up --build
   ```
-
 
 ---
 
