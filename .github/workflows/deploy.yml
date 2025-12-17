@@ -17,10 +17,10 @@ jobs:
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v0.1.7
         with:
-          host: ${{ secrets.UBUNTU_HOST }}
-          port: ${{ secrets.UBUNTU_PORT }}
-          username: ${{ secrets.UBUNTU_USER }}
-          key: ${{ secrets.UBUNTU_SSH_KEY }}
+          host: ${{ secrets.SERVER_HOST }}
+          port: ${{ secrets.SERVER_PORT }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SERVER_SSH_KEY }}
           script: |
             echo "=== Deploy started ==="
             cd /case4/app
