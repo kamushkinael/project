@@ -50,11 +50,11 @@
 - Все интерфейсы адаптированы под мобильные устройства благодаря **Bootstrap 5**.
 
 ### 5. Технологии
-- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic
-- **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js
-- **Контейниризация:** Docker, Docker Compose, .env
-- **База данных:** NoSQL
-- **Версионирование и координация:** Git, GitHub, README, workflow
+- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
+- **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js;
+- **Контейниризация:** Docker, Docker Compose, .env;
+- **База данных:** NoSQL;
+- **Версионирование и координация:** Git, GitHub, README, workflow;
 
 ### 6. **Лёгкое развёртывание и поддержка**
 
