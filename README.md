@@ -62,6 +62,7 @@
   ```bash
   docker-compose up --build
   ```
+- Доступ к приложению по адресу: http://localhost:7055
 
 ---
 
