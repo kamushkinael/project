@@ -49,14 +49,7 @@
 - Статусы заявок выделены цветными метками (Bootstrap badges).
 - Все интерфейсы адаптированы под мобильные устройства благодаря **Bootstrap 5**.
 
-### 5. Технологии
-- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
-- **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js;
-- **Контейниризация:** Docker, Docker Compose, .env;
-- **База данных:** NoSQL;
-- **Версионирование и координация:** Git, GitHub, README, workflow;
-
-### 6. **Лёгкое развёртывание и поддержка**
+### 5. **Лёгкое развёртывание и поддержка**
 
 - Проект упакован в **Docker-контейнеры**, развёртывание занимает одну команду:  
   ```bash
@@ -73,6 +66,14 @@
 2.  Backend-приложение на FastAPI;
 3.  Frontend-приложение на React;
 4.  Web-сервер Nginx
+
+Технологии
+
+- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
+- **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js;
+- **Контейниризация:** Docker, Docker Compose, .env;
+- **База данных:** NoSQL;
+- **Версионирование и координация:** Git, GitHub, README, workflow;
 
 ---
 
