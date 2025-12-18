@@ -67,9 +67,9 @@
 3.  Frontend-приложение на React;
 4.  Web-сервер Nginx
 
-Технологии
+**Технологии**
 
-- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
+- --Backend:-- Python, FastAPI, SQLAlchemy, Pydantic;
 - **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js;
 - **Контейниризация:** Docker, Docker Compose, .env;
 - **База данных:** NoSQL;
