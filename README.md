@@ -144,7 +144,7 @@ yarn.lock           # Фиксация версий зависимостей
 
 Имеет дополнительную вкладку "Заявки", которая позволяет просматривать и согласовывать/отклонять заявки сотрудников. Во вкладке "Календарь" отображается календарь отдела с визуализацией всех отпусков.
 
-<img width="670" height="221" alt="image" src="https://github.com/user-attachments/assets/944fd67e-dc52-42f9-8b66-263b83e41813" />
+<img width="1563" height="525" alt="image" src="https://github.com/user-attachments/assets/fa8075b8-7939-496d-b13e-8700b5cf2881" />
 
 <img width="1515" height="799" alt="image" src="https://github.com/user-attachments/assets/05e1c545-4b5e-43be-af41-75117c5a0bc6" />
 
