@@ -25,7 +25,7 @@ jobs:
             echo "=== Deploy started ==="
             cd /VacationFlow/project
             git pull origin main
-            docker compose down -v
+            docker compose down
             docker compose up -d --build
             docker exec -it vacation_backend python seed_data.py
             echo "=== Deploy finished ==="
