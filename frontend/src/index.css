@@ -34,45 +34,35 @@
     --radius: 0.5rem;
   }
   .dark {
-    /* Основной фон */
     --background: 222 14% 10%;
     --foreground: 220 10% 92%;
 
-    /* Карточки / попапы */
     --card: 222 14% 14%;
     --card-foreground: 220 10% 92%;
 
     --popover: 222 14% 14%;
     --popover-foreground: 220 10% 92%;
 
-    /* Акцент (кнопки, активные элементы) */
-    --primary: 217 91% 60%; /* холодный blue */
+    --primary: 217 91% 60%;
     --primary-foreground: 0 0% 100%;
 
-    /* Вторичные поверхности */
     --secondary: 222 14% 18%;
     --secondary-foreground: 220 10% 92%;
 
-    /* Приглушённые элементы */
     --muted: 222 14% 18%;
     --muted-foreground: 220 8% 60%;
 
-    /* Hover / выделение */
     --accent: 222 14% 22%;
     --accent-foreground: 220 10% 92%;
 
-    /* Ошибки */
     --destructive: 0 65% 50%;
     --destructive-foreground: 0 0% 98%;
 
-    /* Границы и инпуты */
     --border: 220 13% 25%;
     --input: 220 13% 25%;
 
-    /* Фокус */
     --ring: 217 91% 60%;
 
-    /* Календарь отпусков */
     --vacation-approved: 142 60% 45%;
     --vacation-pending: 45 90% 55%;
     --vacation-rejected: 0 70% 55%;
