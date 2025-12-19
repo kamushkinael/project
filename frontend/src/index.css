@@ -34,39 +34,50 @@
     --radius: 0.5rem;
   }
   .dark {
-    --background: 220 14 10;
-    --foreground: 220 10 94;
+    /* Основной фон */
+    --background: 222 14% 10%;
+    --foreground: 220 10% 92%;
 
-    --card: 220 14 12;
-    --card-foreground: 220 10 94;
+    /* Карточки / попапы */
+    --card: 222 14% 14%;
+    --card-foreground: 220 10% 92%;
 
-    --popover: 220 14 12;
-    --popover-foreground: 220 10 94;
+    --popover: 222 14% 14%;
+    --popover-foreground: 220 10% 92%;
 
-    --primary: 142 35 55;
-    --primary-foreground: 0 0 100;
+    /* Акцент (кнопки, активные элементы) */
+    --primary: 217 91% 60%; /* холодный blue */
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 220 14 18;
-    --secondary-foreground: 220 10 94;
+    /* Вторичные поверхности */
+    --secondary: 222 14% 18%;
+    --secondary-foreground: 220 10% 92%;
 
-    --muted: 220 14 18;
-    --muted-foreground: 220 10 65;
+    /* Приглушённые элементы */
+    --muted: 222 14% 18%;
+    --muted-foreground: 220 8% 60%;
 
-    --accent: 220 14 20;
-    --accent-foreground: 220 10 94;
+    /* Hover / выделение */
+    --accent: 222 14% 22%;
+    --accent-foreground: 220 10% 92%;
 
-    --destructive: 0 60 40;
-    --destructive-foreground: 0 0 98;
+    /* Ошибки */
+    --destructive: 0 65% 50%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 39 39 42;
-    --input: 39 39 42;
+    /* Границы и инпуты */
+    --border: 220 13% 25%;
+    --input: 220 13% 25%;
 
-    --ring: 212 212 216;
+    /* Фокус */
+    --ring: 217 91% 60%;
 
-    --vacation-approved: 5 150 105;
-    --vacation-pending: 217 119 6;
-    --vacation-rejected: 220 38 38;
+    /* Календарь отпусков */
+    --vacation-approved: 142 60% 45%;
+    --vacation-pending: 45 90% 55%;
+    --vacation-rejected: 0 70% 55%;
   }
+
 
   body {
     @apply bg-background text-foreground font-body;
