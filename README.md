@@ -108,7 +108,7 @@ cp backend/.env.example backend/.env
 
 ### **Технологии:**
 
-- **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
+- **Backend:** Python, FastAPI, Motor/PyMongo, Pydantic;
 - **Frontend:** HTML, React, Tailwind CSS, FullCalendar.js;
 - **Контейниризация:** Docker, Docker Compose, .env;
 - **База данных:** MongoDB;
