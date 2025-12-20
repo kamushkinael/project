@@ -71,7 +71,7 @@
 ### **Технологии:**
 
 - **Backend:** Python, FastAPI, SQLAlchemy, Pydantic;
-- **Frontend:** HTML, CSS, Bootstrap 5, FullCalendar.js;
+- **Frontend:** HTML, React, Tailwind CSS, FullCalendar.js;
 - **Контейниризация:** Docker, Docker Compose, .env;
 - **База данных:** MongoDB;
 - **Версионирование и координация:** Git, GitHub, README, workflow;
