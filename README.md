@@ -28,8 +28,10 @@
    cd project
 
 Настройте переменные окружения
+```bash
 cp backend/.env.example backend/.env
 # Отредактируйте .env при необходимости
+```
 
 Запустите проект:
 ```bash
