@@ -99,7 +99,7 @@
 
 ### **Технологии:**
 
-- **Backend:** Python, FastAPI, Motor/PyMongo, Pydantic;
+- **Backend:** Python, FastAPI, Motor, Pydantic;
 - **Frontend:** HTML, React, Tailwind CSS, FullCalendar.js;
 - **Контейниризация:** Docker, Docker Compose, .env;
 - **База данных:** MongoDB;
